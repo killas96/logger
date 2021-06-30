@@ -1,3 +1,4 @@
+<?
 function generateCallTrace() {
     $e = new Exception();
     $trace = explode("\n", $e->getTraceAsString());
